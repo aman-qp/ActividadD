@@ -19,6 +19,7 @@ public class Preguntas {
         System.out.print("Por favor, ingresa tu color favorito: ");
         String colorFavorito = scanner.nextLine();
 
+
         //Solicitar al usuario que ingrese su animal favorito
         System.out.print("Por favor, ingresa tu animal favorito: ");
         String animalFavorito = scanner.nextLine();
@@ -31,7 +32,9 @@ public class Preguntas {
         System.out.println("\n¡Hola " + nombre + "!");
         System.out.println("Tu edad es: " + edad + " años");
         System.out.println("Tu color favorito es: " + colorFavorito);
+
         System.out.println("Tu animal favorito es: " + animalFavorito);
+
         System.out.println("Tu nacionalidad es: " + nacionalidad);
         
         // Cerrar el Scanner para liberar recursos
