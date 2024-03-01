@@ -27,9 +27,9 @@ public class Preguntas {
         System.out.print("Por favor, ingresa tu nacionalidad: ");
         String nacionalidad = scanner.nextLine();
 
-        // Solicitar al usuario que ingrese su PeliculaFav
-        System.out.print("Por favor, ingresa tu pelicula favorita: ");
-        String pelicula = scanner.nextLine();
+        // Solicitar al usuario que ingrese su SerieFav
+        System.out.print("Por favor, ingresa tu serie favorita: ");
+        String serie = scanner.nextLine();
         
         // Mostrar la información ingresada por el usuario
         System.out.println("\n¡Hola " + nombre + "!");
@@ -37,7 +37,7 @@ public class Preguntas {
         System.out.println("Tu color favorito es: " + colorFavorito);
         System.out.println("Tu animal favorito es: " + animalFavorito);
         System.out.println("Tu nacionalidad es: " + nacionalidad);
-        System.out.println("Tu pelicula favorita es: " + pelicula);
+        System.out.println("Tu serie favorita es: " + serie);
         
         // Cerrar el Scanner para liberar recursos
         scanner.close();
